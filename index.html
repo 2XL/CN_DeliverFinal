@@ -35,41 +35,34 @@ and open the template in the editor.
     </head>
     <body>
 	<div>
-	    <h1>Monte Carlo Simulation of SIS epidemic spreading</h1>
+	    <h1>Complex Network - Tweets</h1>
 	</div>
 	<script>
 
 	    // STEP 0
 	    // parsejar tots els tweets capturats
 	    // - crear una classe tweet
-	    
+
 	    var network = []; // llista de tots els usuaris
-	    
+
 	    // pensar en usuari com a node i tweets com a aristes
-	    var user = function(){
+	    var user = function () {
 		this.in = []; // tweets entrants
 		this.out = []; // tweets sortint
 		this.hashtags = {};
 	    };
-	    var tweet = function(){
+	    var tweet = function () {
 		// this.tweet = parseTweet();
 	    };
-	    
-	    
+
+
 	    // un cop tingui el graf de tots json parsejats 
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    function parseTweet(tweet){
+
+	    function parseTweet(tweet) {
 		return{
 		    created_at: tweet.created_at,
 		    text: tweet.text, // "RT @kim_soler: Aha, entenc ! #CiudadanosCs Quina poca vergonya @Albert_Rivera, s'ha de tenir molta jeta !\n\nhttps://t.co/PtK0nSXHmn http://t…",
-		    user: tweet.user, 
+		    user: tweet.user,
 		    // screen_name // avatar name
 		    // location // mataro
 		    // description // self describe profile usuario 
@@ -78,27 +71,63 @@ and open the template in the editor.
 		    // profile_image_url // mostrar imagen del user como nodo
 		    retweeted_status: tweet.retweeted_status,
 		    entities: tweet.entities
-		    // hashtags: [text]
-		    // symbols
-		    // user_mentions: screen_name
-		    
-		    
-		    // boud rest api for the sintaxi analysis, and profile the user
-		    
-		    
+			    // hashtags: [text]
+			    // symbols
+			    // user_mentions: screen_name
+
+
+			    // boud rest api for the sintaxi analysis, and profile the user
+
+
 		};
 	    }
-	    
-	    
-	    
-	    function parsetRetweet(retweet){
+
+	    function parsetRetweet(retweet) {
 		return{
-		    
 		};
-	    };
-	    
-	    
-	    
+	    }
+	    ;
+
+
+
+
+
+	    var data_source =
+		    [
+			"ahorapodemos",
+			"compromis",
+			"omnium",
+			"cupnacional",
+			"PPopular",
+			"ERC",
+			"PSOE",
+			"CiudadanosCs",
+			"ForoAsturias",
+			"UPyD",
+			"ciu",
+			"geroabai",
+			"viacatalana",
+			"ciutadans",
+			"iunida",
+			"coalicion",
+			"obloque"
+		    ];
+
+	    var dataset = [];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	</script>
 
     </body>
