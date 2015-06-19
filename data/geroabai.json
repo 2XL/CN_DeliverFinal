@@ -1,0 +1,941 @@
+[
+  {
+    "metadata": {
+      "iso_language_code": "es",
+      "result_type": "recent"
+    },
+    "created_at": "Tue Jun 16 12:22:04 +0000 2015",
+    "id": 610784404378619900,
+    "id_str": "610784404378619904",
+    "text": "#Podemos presidirá el Parlamento navarro, #GeroaBai asume la vicepresidencia y EH #Bildu la secretaría primera http://t.co/JFf4Zmb5ho",
+    "source": "&lt;a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\"&gt;Twitter for iPhone&lt;/a&gt;",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 299351466,
+      "id_str": "299351466",
+      "name": "#CorruptosALaCárcel",
+      "screen_name": "gerontecontena",
+      "location": "Ciudad de Madrid",
+      "description": "Free--lance de la vida.-",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 630,
+      "friends_count": 227,
+      "listed_count": 12,
+      "created_at": "Sun May 15 23:03:50 +0000 2011",
+      "favourites_count": 231,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 20611,
+      "lang": "es",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3700805724/9165bd115867c9008382928135288ad2_normal.jpeg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3700805724/9165bd115867c9008382928135288ad2_normal.jpeg",
+      "profile_link_color": "0084B4",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "Podemos",
+          "indices": [
+            0,
+            8
+          ]
+        },
+        {
+          "text": "GeroaBai",
+          "indices": [
+            42,
+            51
+          ]
+        },
+        {
+          "text": "Bildu",
+          "indices": [
+            82,
+            88
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "http://t.co/JFf4Zmb5ho",
+          "expanded_url": "http://www.naiz.eus/actualidad/noticia/20150616/podemos-presidira-el-parlamento-navarro-geroa-bai-asume-la-vicepresidencia-y-eh-bildu-la-secretaria-primera",
+          "display_url": "naiz.eus/actualidad/not…",
+          "indices": [
+            111,
+            133
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "es"
+  },
+  {
+    "metadata": {
+      "iso_language_code": "es",
+      "result_type": "recent"
+    },
+    "created_at": "Fri Jun 12 14:21:49 +0000 2015",
+    "id": 609364988411646000,
+    "id_str": "609364988411645952",
+    "text": "#esquela que ha dado la bienvenida al alcalde de #Bildu en #Pamplona\n#Podemos #GeroaBai #EHBildu #IzquierdaEzquerra http://t.co/K4TbkYwCQR",
+    "source": "&lt;a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\"&gt;TweetDeck&lt;/a&gt;",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 16377377,
+      "id_str": "16377377",
+      "name": "Yankas",
+      "screen_name": "Yankas",
+      "location": "Maracaibo Zulia Venezuela",
+      "description": "Soy Venezolano y español, Iberoamericano, amigo y hermano del mundo entero. https://t.co/M1XAnWF0vB",
+      "url": "http://t.co/V1tbvauhqZ",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/V1tbvauhqZ",
+              "expanded_url": "http://elrincondeyanka.blogspot.com/",
+              "display_url": "elrincondeyanka.blogspot.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/M1XAnWF0vB",
+              "expanded_url": "https://www.facebook.com/pages/EL-Rinc%C3%B3n-de-Yanka/33490433402",
+              "display_url": "facebook.com/pages/EL-Rinc%…",
+              "indices": [
+                76,
+                99
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1629,
+      "friends_count": 1990,
+      "listed_count": 72,
+      "created_at": "Sat Sep 20 13:06:34 +0000 2008",
+      "favourites_count": 11327,
+      "utc_offset": -16200,
+      "time_zone": "Caracas",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 53519,
+      "lang": "es",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "642D8B",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/587653773784289280/xFWMjvmc.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/587653773784289280/xFWMjvmc.png",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/603169384907972609/TMPmpg0T_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/603169384907972609/TMPmpg0T_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/16377377/1398618103",
+      "profile_link_color": "FF0000",
+      "profile_sidebar_border_color": "65B0DA",
+      "profile_sidebar_fill_color": "7AC3EE",
+      "profile_text_color": "3D1957",
+      "profile_use_background_image": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "esquela",
+          "indices": [
+            0,
+            8
+          ]
+        },
+        {
+          "text": "Bildu",
+          "indices": [
+            49,
+            55
+          ]
+        },
+        {
+          "text": "Pamplona",
+          "indices": [
+            59,
+            68
+          ]
+        },
+        {
+          "text": "Podemos",
+          "indices": [
+            69,
+            77
+          ]
+        },
+        {
+          "text": "GeroaBai",
+          "indices": [
+            78,
+            87
+          ]
+        },
+        {
+          "text": "EHBildu",
+          "indices": [
+            88,
+            96
+          ]
+        },
+        {
+          "text": "IzquierdaEzquerra",
+          "indices": [
+            97,
+            115
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [],
+      "media": [
+        {
+          "id": 609364893662253000,
+          "id_str": "609364893662253056",
+          "indices": [
+            116,
+            138
+          ],
+          "media_url": "http://pbs.twimg.com/media/CHTmJGlVEAAk1qM.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/CHTmJGlVEAAk1qM.jpg",
+          "url": "http://t.co/K4TbkYwCQR",
+          "display_url": "pic.twitter.com/K4TbkYwCQR",
+          "expanded_url": "http://twitter.com/Yankas/status/609364988411645952/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 468,
+              "h": 323,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 468,
+              "h": 323,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 340,
+              "h": 234,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "es"
+  },
+  {
+    "metadata": {
+      "iso_language_code": "es",
+      "result_type": "recent"
+    },
+    "created_at": "Thu Jun 11 14:46:36 +0000 2015",
+    "id": 609008836163309600,
+    "id_str": "609008836163309568",
+    "text": "RT @Cholati: Oye, pues para no gustarles el premio Príncipe de Viana y la vinculación que tiene con la corona, no faltaron ni uno. #GeroaBai",
+    "source": "&lt;a href=\"http://twitter.com/download/android\" rel=\"nofollow\"&gt;Twitter for Android&lt;/a&gt;",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 268200086,
+      "id_str": "268200086",
+      "name": "Salomé",
+      "screen_name": "SaElAg",
+      "location": "",
+      "description": "Navarra. Y aunque la pena me ahogue en cada despertar,sobrevivire a esta vida que tengo y que es la mia. Blog Aser y Judith",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 607,
+      "friends_count": 300,
+      "listed_count": 13,
+      "created_at": "Fri Mar 18 09:58:49 +0000 2011",
+      "favourites_count": 798,
+      "utc_offset": 7200,
+      "time_zone": "Madrid",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 21441,
+      "lang": "es",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "4A913C",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/530308800549359616/mrYme2qb.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/530308800549359616/mrYme2qb.jpeg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/596277002635739136/wlqfYQMR_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/596277002635739136/wlqfYQMR_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/268200086/1415270395",
+      "profile_link_color": "D02B55",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "metadata": {
+        "iso_language_code": "es",
+        "result_type": "recent"
+      },
+      "created_at": "Thu Jun 11 07:22:47 +0000 2015",
+      "id": 608897149993148400,
+      "id_str": "608897149993148416",
+      "text": "Oye, pues para no gustarles el premio Príncipe de Viana y la vinculación que tiene con la corona, no faltaron ni uno. #GeroaBai",
+      "source": "&lt;a href=\"http://twitter.com\" rel=\"nofollow\"&gt;Twitter Web Client&lt;/a&gt;",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 207021617,
+        "id_str": "207021617",
+        "name": "Chon Latienda",
+        "screen_name": "Cholati",
+        "location": "Navarra",
+        "description": "Sólo he venido a tocar las narices.\r\nTodo dicho con ironía.\r\nNo tengo ni blog ni web.",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 4047,
+        "friends_count": 3816,
+        "listed_count": 113,
+        "created_at": "Sun Oct 24 09:56:18 +0000 2010",
+        "favourites_count": 2,
+        "utc_offset": 7200,
+        "time_zone": "Madrid",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 43809,
+        "lang": "es",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "FFF04D",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/289862071/nabarra.png",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/289862071/nabarra.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/526097464126750720/YAcf3tr5_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/526097464126750720/YAcf3tr5_normal.jpeg",
+        "profile_link_color": "0099CC",
+        "profile_sidebar_border_color": "FFF8AD",
+        "profile_sidebar_fill_color": "F6FFD1",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 3,
+      "favorite_count": 8,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "GeroaBai",
+            "indices": [
+              118,
+              127
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "lang": "es"
+    },
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "GeroaBai",
+          "indices": [
+            131,
+            140
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Cholati",
+          "name": "Chon Latienda",
+          "id": 207021617,
+          "id_str": "207021617",
+          "indices": [
+            3,
+            11
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "es"
+  },
+  {
+    "metadata": {
+      "iso_language_code": "es",
+      "result_type": "recent"
+    },
+    "created_at": "Thu Jun 11 07:34:39 +0000 2015",
+    "id": 608900133892272100,
+    "id_str": "608900133892272129",
+    "text": "RT @Cholati: Oye, pues para no gustarles el premio Príncipe de Viana y la vinculación que tiene con la corona, no faltaron ni uno. #GeroaBai",
+    "source": "&lt;a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\"&gt;Twitter for iPhone&lt;/a&gt;",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 436628269,
+      "id_str": "436628269",
+      "name": "Pablo Irañeta",
+      "screen_name": "pabloiurdiroz",
+      "location": "",
+      "description": "",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 241,
+      "friends_count": 254,
+      "listed_count": 0,
+      "created_at": "Wed Dec 14 11:13:56 +0000 2011",
+      "favourites_count": 3269,
+      "utc_offset": 10800,
+      "time_zone": "Athens",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 5245,
+      "lang": "es",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/603610404196118529/NkU2r5h8_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/603610404196118529/NkU2r5h8_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/436628269/1429535345",
+      "profile_link_color": "0084B4",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "metadata": {
+        "iso_language_code": "es",
+        "result_type": "recent"
+      },
+      "created_at": "Thu Jun 11 07:22:47 +0000 2015",
+      "id": 608897149993148400,
+      "id_str": "608897149993148416",
+      "text": "Oye, pues para no gustarles el premio Príncipe de Viana y la vinculación que tiene con la corona, no faltaron ni uno. #GeroaBai",
+      "source": "&lt;a href=\"http://twitter.com\" rel=\"nofollow\"&gt;Twitter Web Client&lt;/a&gt;",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 207021617,
+        "id_str": "207021617",
+        "name": "Chon Latienda",
+        "screen_name": "Cholati",
+        "location": "Navarra",
+        "description": "Sólo he venido a tocar las narices.\r\nTodo dicho con ironía.\r\nNo tengo ni blog ni web.",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 4047,
+        "friends_count": 3816,
+        "listed_count": 113,
+        "created_at": "Sun Oct 24 09:56:18 +0000 2010",
+        "favourites_count": 2,
+        "utc_offset": 7200,
+        "time_zone": "Madrid",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 43809,
+        "lang": "es",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "FFF04D",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/289862071/nabarra.png",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/289862071/nabarra.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/526097464126750720/YAcf3tr5_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/526097464126750720/YAcf3tr5_normal.jpeg",
+        "profile_link_color": "0099CC",
+        "profile_sidebar_border_color": "FFF8AD",
+        "profile_sidebar_fill_color": "F6FFD1",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 3,
+      "favorite_count": 8,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "GeroaBai",
+            "indices": [
+              118,
+              127
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "lang": "es"
+    },
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "GeroaBai",
+          "indices": [
+            131,
+            140
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Cholati",
+          "name": "Chon Latienda",
+          "id": 207021617,
+          "id_str": "207021617",
+          "indices": [
+            3,
+            11
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "es"
+  },
+  {
+    "metadata": {
+      "iso_language_code": "es",
+      "result_type": "recent"
+    },
+    "created_at": "Thu Jun 11 07:23:47 +0000 2015",
+    "id": 608897401710112800,
+    "id_str": "608897401710112768",
+    "text": "RT @Cholati: Oye, pues para no gustarles el premio Príncipe de Viana y la vinculación que tiene con la corona, no faltaron ni uno. #GeroaBai",
+    "source": "&lt;a href=\"http://twitter.com/download/android\" rel=\"nofollow\"&gt;Twitter for Android&lt;/a&gt;",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 125084428,
+      "id_str": "125084428",
+      "name": "Lola García",
+      "screen_name": "holls74",
+      "location": "madrid",
+      "description": "Simplemente pasaba por aquí. Besos a todos. The show must go on.",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 682,
+      "friends_count": 1968,
+      "listed_count": 10,
+      "created_at": "Sun Mar 21 16:42:23 +0000 2010",
+      "favourites_count": 311,
+      "utc_offset": -7200,
+      "time_zone": "Greenland",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 9434,
+      "lang": "es",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1670338032/triki2_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1670338032/triki2_normal.jpg",
+      "profile_link_color": "0084B4",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "metadata": {
+        "iso_language_code": "es",
+        "result_type": "recent"
+      },
+      "created_at": "Thu Jun 11 07:22:47 +0000 2015",
+      "id": 608897149993148400,
+      "id_str": "608897149993148416",
+      "text": "Oye, pues para no gustarles el premio Príncipe de Viana y la vinculación que tiene con la corona, no faltaron ni uno. #GeroaBai",
+      "source": "&lt;a href=\"http://twitter.com\" rel=\"nofollow\"&gt;Twitter Web Client&lt;/a&gt;",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 207021617,
+        "id_str": "207021617",
+        "name": "Chon Latienda",
+        "screen_name": "Cholati",
+        "location": "Navarra",
+        "description": "Sólo he venido a tocar las narices.\r\nTodo dicho con ironía.\r\nNo tengo ni blog ni web.",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 4047,
+        "friends_count": 3816,
+        "listed_count": 113,
+        "created_at": "Sun Oct 24 09:56:18 +0000 2010",
+        "favourites_count": 2,
+        "utc_offset": 7200,
+        "time_zone": "Madrid",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 43809,
+        "lang": "es",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "FFF04D",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/289862071/nabarra.png",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/289862071/nabarra.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/526097464126750720/YAcf3tr5_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/526097464126750720/YAcf3tr5_normal.jpeg",
+        "profile_link_color": "0099CC",
+        "profile_sidebar_border_color": "FFF8AD",
+        "profile_sidebar_fill_color": "F6FFD1",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 3,
+      "favorite_count": 8,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "GeroaBai",
+            "indices": [
+              118,
+              127
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "lang": "es"
+    },
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "GeroaBai",
+          "indices": [
+            131,
+            140
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Cholati",
+          "name": "Chon Latienda",
+          "id": 207021617,
+          "id_str": "207021617",
+          "indices": [
+            3,
+            11
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "es"
+  },
+  {
+    "metadata": {
+      "iso_language_code": "es",
+      "result_type": "recent"
+    },
+    "created_at": "Thu Jun 11 07:22:47 +0000 2015",
+    "id": 608897149993148400,
+    "id_str": "608897149993148416",
+    "text": "Oye, pues para no gustarles el premio Príncipe de Viana y la vinculación que tiene con la corona, no faltaron ni uno. #GeroaBai",
+    "source": "&lt;a href=\"http://twitter.com\" rel=\"nofollow\"&gt;Twitter Web Client&lt;/a&gt;",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 207021617,
+      "id_str": "207021617",
+      "name": "Chon Latienda",
+      "screen_name": "Cholati",
+      "location": "Navarra",
+      "description": "Sólo he venido a tocar las narices.\r\nTodo dicho con ironía.\r\nNo tengo ni blog ni web.",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 4047,
+      "friends_count": 3816,
+      "listed_count": 113,
+      "created_at": "Sun Oct 24 09:56:18 +0000 2010",
+      "favourites_count": 2,
+      "utc_offset": 7200,
+      "time_zone": "Madrid",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 43809,
+      "lang": "es",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFF04D",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/289862071/nabarra.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/289862071/nabarra.png",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/526097464126750720/YAcf3tr5_normal.jpeg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/526097464126750720/YAcf3tr5_normal.jpeg",
+      "profile_link_color": "0099CC",
+      "profile_sidebar_border_color": "FFF8AD",
+      "profile_sidebar_fill_color": "F6FFD1",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 8,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "GeroaBai",
+          "indices": [
+            118,
+            127
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "es"
+  }
+]

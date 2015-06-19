@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+	<title>CN Final</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="favicon.ico" >
+	<link rel="icon" href="obrasinf.gif" type="image/gif" >
+	<link rel="stylesheet" href="js/twitter-bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery/jquery.js"></script>
+	<script src="js/twitter-bootstrap/js/bootstrap.js"></script>
+	<script src="js/util.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/FileSaver.js"></script>
+	<script src="js/papaparse.js"></script>
+	<style>
+	    .box-content {
+		display: inline-block;
+		width: 200px;
+		padding: 10px;
+	    }
+	    .bottom {
+		border-bottom: 1px solid #ccc;
+	    }
+	    .right {
+		border-right: 1px solid #ccc;
+	    }
+	</style>
+    </head>
+    <body>
+	<div>
+	    <h1>Monte Carlo Simulation of SIS epidemic spreading</h1>
+	</div>
+	<script>
+
+	    // STEP 0
+	    // parsejar tots els tweets capturats
+	    // - crear una classe tweet
+	    
+	    var network = []; // llista de tots els usuaris
+	    
+	    // pensar en usuari com a node i tweets com a aristes
+	    var user = function(){
+		this.in = []; // tweets entrants
+		this.out = []; // tweets sortint
+		this.hashtags = {};
+	    };
+	    var tweet = function(){
+		// this.tweet = parseTweet();
+	    };
+	    
+	    
+	    // un cop tingui el graf de tots json parsejats 
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    
+	    function parseTweet(tweet){
+		return{
+		    created_at: tweet.created_at,
+		    text: tweet.text, // "RT @kim_soler: Aha, entenc ! #CiudadanosCs Quina poca vergonya @Albert_Rivera, s'ha de tenir molta jeta !\n\nhttps://t.co/PtK0nSXHmn http://t…",
+		    user: tweet.user, 
+		    // screen_name // avatar name
+		    // location // mataro
+		    // description // self describe profile usuario 
+		    // follower_count // peso del usuario
+		    // listed_count // veces listado!!! influencia real usuario
+		    // profile_image_url // mostrar imagen del user como nodo
+		    retweeted_status: tweet.retweeted_status,
+		    entities: tweet.entities
+		    // hashtags: [text]
+		    // symbols
+		    // user_mentions: screen_name
+		    
+		    
+		    // boud rest api for the sintaxi analysis, and profile the user
+		    
+		    
+		};
+	    }
+	    
+	    
+	    
+	    function parsetRetweet(retweet){
+		return{
+		    
+		};
+	    };
+	    
+	    
+	    
+	</script>
+
+    </body>
+</html>
