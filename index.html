@@ -9,8 +9,7 @@ and open the template in the editor.
 	<title>CN Final</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="favicon.ico" >
-	<link rel="icon" href="obrasinf.gif" type="image/gif" >
+	<link rel="shortcut icon" href="favicon.ico" > 
 	<link rel="stylesheet" href="js/twitter-bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="js/jquery/jquery.js"></script>
@@ -86,11 +85,6 @@ and open the template in the editor.
 		return{
 		};
 	    }
-	    ;
-
-
-
-
 
 	    var data_source =
 		    [
@@ -112,18 +106,70 @@ and open the template in the editor.
 			"coalicion",
 			"obloque"
 		    ];
+		    
+	    var dataset = {};
+	    
+	    var data_load_status = 0; // fins recollectar tot
+	    
+	    
+	    
+	    data_source.map(function (item) {
+		// console.log(item);
+		loadJSON('data/'+item+'.json', function(data){
+		    data_load_status++;
+		    dataset[item] = JSON.parse(data);
+		});
+	    });
+	    
+	    
+	    
+	    var itv_load_status = setInterval(function(){
+		if(data_load_status !== data_source.length){
+		    console.log("loadStatus: "+data_load_status+"/"+data_source.length);
+		}else{
+		    console.log("loadStatus: Complete!");
+		    startParseDataset(data_source);
+		    clearInterval(itv_load_status);
+		}
+	    }, 500);
+	    
+	    
+	    
+	    
+	    function startParseDataset(data){
+		
+		tweets = {};
+		
+		data_source.map(function(item){
+		    // console.log(dataset[item]);
+		    dataset[item].map(function(t){
+			if(tweets[t.id] === undefined){
+			    tweets[t.id] = t;
+			};
+		    });
+		});
+		
+		
+		// console.log(tweets);
+	
+		console.log("Tweets collected: "+Object.keys(tweets).length);
+		
+		// tweets collection start time
+		var list = Object.keys(tweets);
+		var listInt = list.map(function(item){ return parseInt(item);});
+		var minKey = Math.min.apply(null, listInt);
+		//console.log(minKey);
+		console.log("Collection period: \n>>Start >> "+ tweets[minKey].created_at);
+		// tweets collection end time
+		var maxKey = Math.max.apply(null, listInt);
+		//console.log(maxKey);
+		console.log(">>Finish>> "+ tweets[maxKey].created_at);
+	    }
+	    
+ 
 
-	    var dataset = [];
 
-
-
-
-
-
-
-
-
-
+	    
 
 
 
