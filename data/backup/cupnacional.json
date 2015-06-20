@@ -1,0 +1,435 @@
+[
+  {
+    "metadata": {
+      "iso_language_code": "es",
+      "result_type": "recent"
+    },
+    "created_at": "Wed Jun 10 23:45:40 +0000 2015",
+    "id": 608782110153928700,
+    "id_str": "608782110153928704",
+    "text": "RT @tonistrubellt: #cadci #josemariaandreu #cupnacional net de Terence MacSwiney amb la nina regalada pel CADCI a la seva mare http://t.co/…",
+    "source": "&lt;a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\"&gt;Twitter for iPad&lt;/a&gt;",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 157755289,
+      "id_str": "157755289",
+      "name": "Antoni Mañé i Rovira",
+      "screen_name": "cota3143",
+      "location": "PPCC* CATALONIA",
+      "description": "",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 4405,
+      "friends_count": 4437,
+      "listed_count": 72,
+      "created_at": "Sun Jun 20 19:47:22 +0000 2010",
+      "favourites_count": 0,
+      "utc_offset": 7200,
+      "time_zone": "Paris",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 279892,
+      "lang": "ca",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "1A1B1F",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1407113711/DSC06139_normal.JPG",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1407113711/DSC06139_normal.JPG",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/157755289/1397195633",
+      "profile_link_color": "2FC2EF",
+      "profile_sidebar_border_color": "181A1E",
+      "profile_sidebar_fill_color": "252429",
+      "profile_text_color": "666666",
+      "profile_use_background_image": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "metadata": {
+        "iso_language_code": "es",
+        "result_type": "recent"
+      },
+      "created_at": "Wed Jun 10 23:11:57 +0000 2015",
+      "id": 608773626423337000,
+      "id_str": "608773626423336961",
+      "text": "#cadci #josemariaandreu #cupnacional net de Terence MacSwiney amb la nina regalada pel CADCI a la seva mare http://t.co/tQ0xxesMq8",
+      "source": "&lt;a href=\"http://twitter.com\" rel=\"nofollow\"&gt;Twitter Web Client&lt;/a&gt;",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2262921585,
+        "id_str": "2262921585",
+        "name": "Toni Strubell #27S",
+        "screen_name": "tonistrubellt",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1588,
+        "friends_count": 2002,
+        "listed_count": 18,
+        "created_at": "Sun Jan 05 02:28:13 +0000 2014",
+        "favourites_count": 1112,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 5602,
+        "lang": "ca",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/573452182306996224/zyOypuiY_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/573452182306996224/zyOypuiY_normal.jpeg",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 1,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "cadci",
+            "indices": [
+              0,
+              6
+            ]
+          },
+          {
+            "text": "josemariaandreu",
+            "indices": [
+              7,
+              23
+            ]
+          },
+          {
+            "text": "cupnacional",
+            "indices": [
+              24,
+              36
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [],
+        "media": [
+          {
+            "id": 608773625337012200,
+            "id_str": "608773625337012224",
+            "indices": [
+              108,
+              130
+            ],
+            "media_url": "http://pbs.twimg.com/media/CHLMYwbW4AApveB.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CHLMYwbW4AApveB.jpg",
+            "url": "http://t.co/tQ0xxesMq8",
+            "display_url": "pic.twitter.com/tQ0xxesMq8",
+            "expanded_url": "http://twitter.com/tonistrubellt/status/608773626423336961/photo/1",
+            "type": "photo",
+            "sizes": {
+              "small": {
+                "w": 340,
+                "h": 255,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 600,
+                "h": 450,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 1024,
+                "h": 768,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "es"
+    },
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "cadci",
+          "indices": [
+            19,
+            25
+          ]
+        },
+        {
+          "text": "josemariaandreu",
+          "indices": [
+            26,
+            42
+          ]
+        },
+        {
+          "text": "cupnacional",
+          "indices": [
+            43,
+            55
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "tonistrubellt",
+          "name": "Toni Strubell #27S",
+          "id": 2262921585,
+          "id_str": "2262921585",
+          "indices": [
+            3,
+            17
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 608773625337012200,
+          "id_str": "608773625337012224",
+          "indices": [
+            127,
+            140
+          ],
+          "media_url": "http://pbs.twimg.com/media/CHLMYwbW4AApveB.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/CHLMYwbW4AApveB.jpg",
+          "url": "http://t.co/tQ0xxesMq8",
+          "display_url": "pic.twitter.com/tQ0xxesMq8",
+          "expanded_url": "http://twitter.com/tonistrubellt/status/608773626423336961/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 340,
+              "h": 255,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 600,
+              "h": 450,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1024,
+              "h": 768,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 608773626423337000,
+          "source_status_id_str": "608773626423336961",
+          "source_user_id": 2262921585,
+          "source_user_id_str": "2262921585"
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "es"
+  },
+  {
+    "metadata": {
+      "iso_language_code": "es",
+      "result_type": "recent"
+    },
+    "created_at": "Wed Jun 10 23:11:57 +0000 2015",
+    "id": 608773626423337000,
+    "id_str": "608773626423336961",
+    "text": "#cadci #josemariaandreu #cupnacional net de Terence MacSwiney amb la nina regalada pel CADCI a la seva mare http://t.co/tQ0xxesMq8",
+    "source": "&lt;a href=\"http://twitter.com\" rel=\"nofollow\"&gt;Twitter Web Client&lt;/a&gt;",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 2262921585,
+      "id_str": "2262921585",
+      "name": "Toni Strubell #27S",
+      "screen_name": "tonistrubellt",
+      "location": "",
+      "description": "",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 1588,
+      "friends_count": 2002,
+      "listed_count": 18,
+      "created_at": "Sun Jan 05 02:28:13 +0000 2014",
+      "favourites_count": 1112,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 5602,
+      "lang": "ca",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/573452182306996224/zyOypuiY_normal.jpeg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/573452182306996224/zyOypuiY_normal.jpeg",
+      "profile_link_color": "0084B4",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "cadci",
+          "indices": [
+            0,
+            6
+          ]
+        },
+        {
+          "text": "josemariaandreu",
+          "indices": [
+            7,
+            23
+          ]
+        },
+        {
+          "text": "cupnacional",
+          "indices": [
+            24,
+            36
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [],
+      "media": [
+        {
+          "id": 608773625337012200,
+          "id_str": "608773625337012224",
+          "indices": [
+            108,
+            130
+          ],
+          "media_url": "http://pbs.twimg.com/media/CHLMYwbW4AApveB.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/CHLMYwbW4AApveB.jpg",
+          "url": "http://t.co/tQ0xxesMq8",
+          "display_url": "pic.twitter.com/tQ0xxesMq8",
+          "expanded_url": "http://twitter.com/tonistrubellt/status/608773626423336961/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 340,
+              "h": 255,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 600,
+              "h": 450,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1024,
+              "h": 768,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "es"
+  }
+]

@@ -5,6 +5,17 @@
  */
 
 console.log("script Loaded!");
+
+
+console.log("LOCAL STORAGE");
+
+var version = new Date().getDay();
+if (localStorage['extension-version'] !== version) {
+    localStorage.clear();
+    localStorage['extension-version'] = version;
+}
+
+
 function pajekToJSON(str) {
 
     console.log({data: str});
@@ -111,4 +122,51 @@ function makeArrayOf(length, value) {
 
 
 
+/**
+ * list es un array de strings
+ */
+function parseDMOZ(list, callback) {
+    var result = [];
+
  
+    for (var text in list) {
+	// console.log(domain);
+	var server = "http://dmoz-api.appspot.com/category?url=";
+	var search = "http://www.dmoz.org/search?q="
+
+
+
+
+	var term = list[text];
+	var query = server + 'www.'+term+'.com';
+//	var querySearch = search + term;
+	// and remember the jqXHR object for this request
+
+
+	console.log(query);
+
+	$.ajax({
+	    crossDomain: true,
+	    type: "GET",
+	    url: query
+	}).done(function (data) {
+	    result.push(data);
+	});
+	// es llançen els queries i jasta
+    }
+
+
+
+    var itvParse = setInterval(function () {
+	if (result.length === list.length) {
+	    console.log("parseDMOZ: Completed!");
+	    console.log(result);
+	    callback(result);
+	    clearInterval(itvParse);
+
+	} else {
+	    console.log("parseDMOZ: " + result.length + '/' + list.length);
+	}
+    }, 500);
+
+}

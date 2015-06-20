@@ -42,18 +42,22 @@ and open the template in the editor.
 	    // parsejar tots els tweets capturats
 	    // - crear una classe tweet
 
-	    var network = []; // llista de tots els usuaris
+	    var network = {}; // llista de tots els usuaris
 
 	    // pensar en usuari com a node i tweets com a aristes
-	    var user = function () {
-		this.in = []; // tweets entrants
-		this.out = []; // tweets sortint
-		this.hashtags = {};
+	    var nodes = function (obj) { // 
+		this.id = obj.id;   
+		this.data = obj; // user
+		this.links = {};
+		this.addLink = function (link) {
+		    if (this.links[link.id] === undefined) {
+			// console.log("add link to: "+this.data.id+"-->"+link.id);
+			this.links[link.id] = link; // node
+		    }else{
+			// console.log("already added!");
+		    }
+		};
 	    };
-	    var tweet = function () {
-		// this.tweet = parseTweet();
-	    };
-
 
 	    // un cop tingui el graf de tots json parsejats 
 
@@ -106,70 +110,230 @@ and open the template in the editor.
 			"coalicion",
 			"obloque"
 		    ];
-		    
+
 	    var dataset = {};
-	    
+
 	    var data_load_status = 0; // fins recollectar tot
-	    
-	    
-	    
+
+
+
 	    data_source.map(function (item) {
 		// console.log(item);
-		loadJSON('data/'+item+'.json', function(data){
+		loadJSON('data/' + item + '.json', function (data) {
 		    data_load_status++;
 		    dataset[item] = JSON.parse(data);
 		});
 	    });
-	    
-	    
-	    
-	    var itv_load_status = setInterval(function(){
-		if(data_load_status !== data_source.length){
-		    console.log("loadStatus: "+data_load_status+"/"+data_source.length);
-		}else{
+
+
+
+	    var itv_load_status = setInterval(function () {
+		if (data_load_status !== data_source.length) {
+		    console.log("loadStatus: " + data_load_status + "/" + data_source.length);
+		} else {
 		    console.log("loadStatus: Complete!");
 		    startParseDataset(data_source);
 		    clearInterval(itv_load_status);
 		}
 	    }, 500);
-	    
-	    
-	    
-	    
-	    function startParseDataset(data){
-		
+
+
+
+
+	    function startParseDataset(data) {
+
 		tweets = {};
-		
-		data_source.map(function(item){
+		re_tweets = {};
+		data_source.map(function (item) {
 		    // console.log(dataset[item]);
-		    dataset[item].map(function(t){
-			if(tweets[t.id] === undefined){
+		    dataset[item].map(function (t) {
+			if (tweets[t.id] === undefined) {
 			    tweets[t.id] = t;
-			};
+
+			} else {
+			    console.log("tweet already exists!");
+			}
+
+			if (t.retweeted_status === undefined) {
+
+			    // no retweets found
+			} else {
+			    var rt = t.retweeted_status;
+			    if (re_tweets[rt.id] === undefined)
+			    {
+				re_tweets[rt.id] = rt;
+			    } else {
+				console.log("re_tweet already exists!");
+			    }
+			}
 		    });
 		});
-		
-		
+
+
+		all_tweets = {};
+
+		for (var key in tweets) {
+		    if (all_tweets[key] === undefined) {
+			all_tweets[key] = tweets[key];
+		    }
+		    ;
+		}
+		;
+
+
+		for (var key in re_tweets) {
+		    if (all_tweets[key] === undefined) {
+			all_tweets[key] = re_tweets[key];
+		    }
+		    ;
+		}
+		;
+
+
 		// console.log(tweets);
-	
-		console.log("Tweets collected: "+Object.keys(tweets).length);
-		
+
+		console.log("Tweets collected: " + Object.keys(tweets).length);
+		console.log("Re Tweets: " + Object.keys(re_tweets).length);
+		console.log("All Tweets: " + Object.keys(all_tweets).length);
 		// tweets collection start time
 		var list = Object.keys(tweets);
-		var listInt = list.map(function(item){ return parseInt(item);});
+		var listInt = list.map(function (item) {
+		    return parseInt(item);
+		});
 		var minKey = Math.min.apply(null, listInt);
 		//console.log(minKey);
-		console.log("Collection period: \n>>Start >> "+ tweets[minKey].created_at);
+		console.log("Collection period: \n>>Start >> " + tweets[minKey].created_at);
 		// tweets collection end time
 		var maxKey = Math.max.apply(null, listInt);
 		//console.log(maxKey);
-		console.log(">>Finish>> "+ tweets[maxKey].created_at);
+		console.log(">>Finish>> " + tweets[maxKey].created_at);
+
+		// parse collected hashtags and user_mentions
+		user_all = {};
+		user_all_to = {};
+		user_mentions_to = {};
+		user_mentions = {};
+		hashtags = {};
+		messages = {};
+
+		for (var key in all_tweets) {
+		    var t = all_tweets[key];
+
+
+		    if (user_all[t.user.id] === undefined) {
+			user_all[t.user.id] = t.user;
+		    }
+
+		    // colleccionar tots els hashtags
+		    t.entities.hashtags.forEach(function (item) {
+			if (hashtags[item.text] === undefined)
+			    hashtags[item.text] = 1;
+			else
+			    hashtags[item.text]++;
+		    });
+
+		    // filtrar tots els usuaris mencionats
+		    t.entities.user_mentions.forEach(function (item) {
+			if (user_mentions[item.id] === undefined) {
+			    user_mentions[item.id] = {
+				hit: 1,
+				id: item.id,
+				name: item.name,
+				user: item.screen_name
+			    };
+			} else {
+			    user_mentions[item.id].hit++;
+			}
+
+			if (user_mentions_to[t.user.id] === undefined) {
+			    user_mentions_to[t.user.id] = [];
+			}
+			user_mentions_to[t.user.id].push(item.id);
+
+			if (user_all_to[item.id] === undefined) {
+			    user_all_to[item.id] = item;
+			}
+
+		    });
+
+		    if (messages[t.user.id] === undefined) {
+			messages[t.user.id] = [];
+		    }
+
+		    messages[t.user.id].push(t.text);
+
+		}
+
+		console.log("Merge User List...");
+		console.log("src: ");
+		console.log(Object.keys(user_all_to).length);
+		console.log("tgt: ");
+		console.log(Object.keys(user_all).length);
+		for (var key in user_all_to) {
+		    if (user_all[key] === undefined) {
+			user_all[key] = user_all_to[key];
+		    }
+		    ;
+		}
+		;
+
+
+		console.log("Merged User List: ");
+		console.log("all: ");
+		console.log(Object.keys(user_all).length);
+
+
+
+
+		// xarxa amb akests usuaris
+
+		// omplir el network amb user_all
+
+		for (key in user_all) {
+		    network[key] = new nodes(user_all[key]);
+		}
+		
+		console.log("Finish create Network");
+
+
+		for (key in user_mentions_to) {
+		    user_mentions_to[key].forEach(function (item) {
+			network[key].addLink(network[item]);
+		    });
+		}
+		
+		console.log("Finish join Links");
+
+
+
+
+
+
+
+		// reduce user_all with user_mention
+
+
+		//parseDMOZ([Object.keys(hashtags)[0]], function (data) {
+		/*
+		 parseDMOZ(Object.keys(hashtags), function (data) {
+		 data.map(function (item) {
+		 console.log(item);
+		 });
+		 });
+		 */
+
+		// generateDirectGraph
+
+
+
+
+
+
+
 	    }
-	    
- 
 
 
-	    
+
 
 
 
