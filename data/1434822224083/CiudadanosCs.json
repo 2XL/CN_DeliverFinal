@@ -1,0 +1,1457 @@
+[
+  {
+    "metadata": {
+      "iso_language_code": "es",
+      "result_type": "recent"
+    },
+    "created_at": "Wed Jun 17 13:12:42 +0000 2015",
+    "id": 611159533562503200,
+    "id_str": "611159533562503168",
+    "text": "Decidido. Dejo de hablar de #política hasta que vuelva a haber #políticos. Vaya vergüenza ajena #ahorapodemos #PPopular #PSOE  #CiudadanosCs",
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 309351892,
+      "id_str": "309351892",
+      "name": "Acu",
+      "screen_name": "PAcunaBatalla",
+      "location": "",
+      "description": "Marketing, Motor, Economy, Technology, and curious things... Just thoughts...",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 228,
+      "friends_count": 426,
+      "listed_count": 11,
+      "created_at": "Wed Jun 01 23:26:13 +0000 2011",
+      "favourites_count": 25,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 727,
+      "lang": "es",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/448906187115732993/6FJHTO9Z.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/448906187115732993/6FJHTO9Z.jpeg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/610380077562494976/QNWGIio-_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/610380077562494976/QNWGIio-_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/309351892/1386851035",
+      "profile_link_color": "0084B4",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "política",
+          "indices": [
+            28,
+            37
+          ]
+        },
+        {
+          "text": "políticos",
+          "indices": [
+            63,
+            73
+          ]
+        },
+        {
+          "text": "ahorapodemos",
+          "indices": [
+            96,
+            109
+          ]
+        },
+        {
+          "text": "PPopular",
+          "indices": [
+            110,
+            119
+          ]
+        },
+        {
+          "text": "PSOE",
+          "indices": [
+            120,
+            125
+          ]
+        },
+        {
+          "text": "CiudadanosCs",
+          "indices": [
+            127,
+            140
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "es"
+  },
+  {
+    "metadata": {
+      "iso_language_code": "es",
+      "result_type": "recent"
+    },
+    "created_at": "Tue Jun 16 07:55:25 +0000 2015",
+    "id": 610717298471665700,
+    "id_str": "610717298471665664",
+    "text": "En #Elecciones2015 generales en Noviembre rematamos a la #casPPa y a la marca blanca d #CiudadanosCs. #Ahorapodemos! https://t.co/RltamEjc6q",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 3051046143,
+      "id_str": "3051046143",
+      "name": "futuronx",
+      "screen_name": "futuronx",
+      "location": "Ciudad Utopía ",
+      "description": "Un ser que nació, ha crecido y algún día morirá. Antes de diñarla quiero ver un mundo mejor. ¿Me ayudarás a conseguirlo?",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 54,
+      "friends_count": 52,
+      "listed_count": 1,
+      "created_at": "Sat Feb 21 23:22:04 +0000 2015",
+      "favourites_count": 1777,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 2021,
+      "lang": "es",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/569277095805587456/VmCFHBDX_normal.jpeg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/569277095805587456/VmCFHBDX_normal.jpeg",
+      "profile_link_color": "0084B4",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "quoted_status_id": 610714132808122400,
+    "quoted_status_id_str": "610714132808122368",
+    "quoted_status": {
+      "metadata": {
+        "iso_language_code": "es",
+        "result_type": "recent"
+      },
+      "created_at": "Tue Jun 16 07:42:50 +0000 2015",
+      "id": 610714132808122400,
+      "id_str": "610714132808122368",
+      "text": "Cuanto mas ataquen a Podemos con mamandurrias peor. Ha pasado en estas elecciones y si pasará en Noviembre\n#ZapataDimisionEP",
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 261764261,
+        "id_str": "261764261",
+        "name": "no_pasaran#",
+        "screen_name": "fermont1965",
+        "location": "sevilla",
+        "description": "Luchador por un estado que sea eso un verdadero estado. Republicano y antifascista",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 18863,
+        "friends_count": 7323,
+        "listed_count": 164,
+        "created_at": "Sun Mar 06 17:14:34 +0000 2011",
+        "favourites_count": 20419,
+        "utc_offset": 10800,
+        "time_zone": "Athens",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 87466,
+        "lang": "es",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000087237752/151044e454f1dd1551162d58c95c64c4.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000087237752/151044e454f1dd1551162d58c95c64c4.jpeg",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/505493837641285633/yobsl6_b_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/505493837641285633/yobsl6_b_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/261764261/1398247853",
+        "profile_link_color": "0098B3",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 1,
+      "favorite_count": 6,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "ZapataDimisionEP",
+            "indices": [
+              107,
+              124
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "lang": "es"
+    },
+    "is_quote_status": true,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "Elecciones2015",
+          "indices": [
+            3,
+            18
+          ]
+        },
+        {
+          "text": "casPPa",
+          "indices": [
+            57,
+            64
+          ]
+        },
+        {
+          "text": "CiudadanosCs",
+          "indices": [
+            87,
+            100
+          ]
+        },
+        {
+          "text": "Ahorapodemos",
+          "indices": [
+            102,
+            115
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/RltamEjc6q",
+          "expanded_url": "https://twitter.com/fermont1965/status/610714132808122368",
+          "display_url": "twitter.com/fermont1965/st…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "es"
+  },
+  {
+    "metadata": {
+      "iso_language_code": "es",
+      "result_type": "recent"
+    },
+    "created_at": "Sun Jun 14 23:50:22 +0000 2015",
+    "id": 610232846805008400,
+    "id_str": "610232846805008384",
+    "text": "#MEMEO Dedicado a Albert Rivera Díaz #CiudadanosCs http://t.co/dTWzaTN4M4",
+    "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 27352434,
+      "id_str": "27352434",
+      "name": "MetroViral",
+      "screen_name": "MetroViral",
+      "location": "Madrid",
+      "description": "Difusión de Noticias breves. Al minuto. \r\nRevolución en España.\r\nCuando Los Medios de Comunicación Tradicionales Se Callan, Nosotros Gritamos!",
+      "url": "http://t.co/cQwXaarp50",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/cQwXaarp50",
+              "expanded_url": "http://www.metroviral.com",
+              "display_url": "metroviral.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 758,
+      "friends_count": 484,
+      "listed_count": 24,
+      "created_at": "Sun Mar 29 01:25:59 +0000 2009",
+      "favourites_count": 1353,
+      "utc_offset": 7200,
+      "time_zone": "Madrid",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 48486,
+      "lang": "es",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/594371594677452800/y4-tyyIf.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/594371594677452800/y4-tyyIf.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/594345948572155904/UhToclKW_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/594345948572155904/UhToclKW_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/27352434/1430543744",
+      "profile_link_color": "000000",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "MEMEO",
+          "indices": [
+            0,
+            6
+          ]
+        },
+        {
+          "text": "CiudadanosCs",
+          "indices": [
+            37,
+            50
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "http://t.co/dTWzaTN4M4",
+          "expanded_url": "http://fb.me/7uGNwpliG",
+          "display_url": "fb.me/7uGNwpliG",
+          "indices": [
+            51,
+            73
+          ]
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "es"
+  },
+  {
+    "metadata": {
+      "iso_language_code": "es",
+      "result_type": "recent"
+    },
+    "created_at": "Sat Jun 13 11:47:02 +0000 2015",
+    "id": 609688423750893600,
+    "id_str": "609688423750893568",
+    "text": "RT @CsMollet: Votar en urnas es democrático #CiudadanosCs http://t.co/xHsedgbvaz",
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 48747005,
+      "id_str": "48747005",
+      "name": "Salarich",
+      "screen_name": "Salaric",
+      "location": "Mar Menor, Murcia, España",
+      "description": "",
+      "url": "http://t.co/Bss6oSNjtv",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/Bss6oSNjtv",
+              "expanded_url": "http://abcdelmarmenor.blogspot.com/",
+              "display_url": "abcdelmarmenor.blogspot.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 255,
+      "friends_count": 712,
+      "listed_count": 13,
+      "created_at": "Fri Jun 19 16:14:16 +0000 2009",
+      "favourites_count": 71,
+      "utc_offset": 7200,
+      "time_zone": "Madrid",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 9841,
+      "lang": "es",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "ACDED6",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme18/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme18/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1572178075/JESUS_TIME_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1572178075/JESUS_TIME_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/48747005/1375203285",
+      "profile_link_color": "038543",
+      "profile_sidebar_border_color": "EEEEEE",
+      "profile_sidebar_fill_color": "F6F6F6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "metadata": {
+        "iso_language_code": "es",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Jun 13 10:36:45 +0000 2015",
+      "id": 609670738644176900,
+      "id_str": "609670738644176896",
+      "text": "Votar en urnas es democrático #CiudadanosCs http://t.co/xHsedgbvaz",
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2331505598,
+        "id_str": "2331505598",
+        "name": "C's Mollet",
+        "screen_name": "CsMollet",
+        "location": "Mollet del Vallès",
+        "description": "Twitter oficial de Ciutadans (C's) de Mollet del Vallès",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1100,
+        "friends_count": 312,
+        "listed_count": 17,
+        "created_at": "Fri Feb 07 08:07:08 +0000 2014",
+        "favourites_count": 20,
+        "utc_offset": 7200,
+        "time_zone": "Ljubljana",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 731,
+        "lang": "es",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5710C",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/431701734868545536/HOwIIq_m.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/431701734868545536/HOwIIq_m.jpeg",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/431701233632428032/3HkJM7jd_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/431701233632428032/3HkJM7jd_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2331505598/1425824735",
+        "profile_link_color": "F5710C",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 1,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "CiudadanosCs",
+            "indices": [
+              30,
+              43
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [],
+        "media": [
+          {
+            "id": 609670721908965400,
+            "id_str": "609670721908965376",
+            "indices": [
+              44,
+              66
+            ],
+            "media_url": "http://pbs.twimg.com/media/CHX8SplXAAA9x3j.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CHX8SplXAAA9x3j.jpg",
+            "url": "http://t.co/xHsedgbvaz",
+            "display_url": "pic.twitter.com/xHsedgbvaz",
+            "expanded_url": "http://twitter.com/CsMollet/status/609670738644176896/photo/1",
+            "type": "photo",
+            "sizes": {
+              "small": {
+                "w": 340,
+                "h": 255,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 600,
+                "h": 450,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 1024,
+                "h": 768,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "es"
+    },
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "CiudadanosCs",
+          "indices": [
+            44,
+            57
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "CsMollet",
+          "name": "C's Mollet",
+          "id": 2331505598,
+          "id_str": "2331505598",
+          "indices": [
+            3,
+            12
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 609670721908965400,
+          "id_str": "609670721908965376",
+          "indices": [
+            58,
+            80
+          ],
+          "media_url": "http://pbs.twimg.com/media/CHX8SplXAAA9x3j.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/CHX8SplXAAA9x3j.jpg",
+          "url": "http://t.co/xHsedgbvaz",
+          "display_url": "pic.twitter.com/xHsedgbvaz",
+          "expanded_url": "http://twitter.com/CsMollet/status/609670738644176896/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 340,
+              "h": 255,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 600,
+              "h": 450,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1024,
+              "h": 768,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 609670738644176900,
+          "source_status_id_str": "609670738644176896",
+          "source_user_id": 2331505598,
+          "source_user_id_str": "2331505598"
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": true,
+    "lang": "es"
+  },
+  {
+    "metadata": {
+      "iso_language_code": "es",
+      "result_type": "recent"
+    },
+    "created_at": "Sat Jun 13 11:21:26 +0000 2015",
+    "id": 609681983938166800,
+    "id_str": "609681983938166785",
+    "text": "Siento asco y repugnancia de mi ciudad/pueblo #AlcaladeGuadaira no entiendo a los diferentes partidos políticos y menos a #CiudadanosCs",
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 344181137,
+      "id_str": "344181137",
+      "name": "Starlight",
+      "screen_name": "starlight2ms",
+      "location": "Alcalá de Gdra, Sevilla, Spain",
+      "description": "Menos fútbol y más rugby, y asqueado de este país (cosa que creía que nunca iba a decir)",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 152,
+      "friends_count": 502,
+      "listed_count": 8,
+      "created_at": "Thu Jul 28 17:23:09 +0000 2011",
+      "favourites_count": 93,
+      "utc_offset": 7200,
+      "time_zone": "Madrid",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 3385,
+      "lang": "es",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "74ADA4",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000085533492/6a23050d74c6e8b4c832bf56822d9e1d.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000085533492/6a23050d74c6e8b4c832bf56822d9e1d.jpeg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/483232435237568512/-m89UBzG_normal.jpeg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/483232435237568512/-m89UBzG_normal.jpeg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/344181137/1374330632",
+      "profile_link_color": "038543",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "F6F6F6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "AlcaladeGuadaira",
+          "indices": [
+            46,
+            63
+          ]
+        },
+        {
+          "text": "CiudadanosCs",
+          "indices": [
+            122,
+            135
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "es"
+  },
+  {
+    "metadata": {
+      "iso_language_code": "es",
+      "result_type": "recent"
+    },
+    "created_at": "Sat Jun 13 10:36:45 +0000 2015",
+    "id": 609670738644176900,
+    "id_str": "609670738644176896",
+    "text": "Votar en urnas es democrático #CiudadanosCs http://t.co/xHsedgbvaz",
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 2331505598,
+      "id_str": "2331505598",
+      "name": "C's Mollet",
+      "screen_name": "CsMollet",
+      "location": "Mollet del Vallès",
+      "description": "Twitter oficial de Ciutadans (C's) de Mollet del Vallès",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 1100,
+      "friends_count": 312,
+      "listed_count": 17,
+      "created_at": "Fri Feb 07 08:07:08 +0000 2014",
+      "favourites_count": 20,
+      "utc_offset": 7200,
+      "time_zone": "Ljubljana",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 731,
+      "lang": "es",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5710C",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/431701734868545536/HOwIIq_m.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/431701734868545536/HOwIIq_m.jpeg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/431701233632428032/3HkJM7jd_normal.jpeg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/431701233632428032/3HkJM7jd_normal.jpeg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/2331505598/1425824735",
+      "profile_link_color": "F5710C",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "CiudadanosCs",
+          "indices": [
+            30,
+            43
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [],
+      "media": [
+        {
+          "id": 609670721908965400,
+          "id_str": "609670721908965376",
+          "indices": [
+            44,
+            66
+          ],
+          "media_url": "http://pbs.twimg.com/media/CHX8SplXAAA9x3j.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/CHX8SplXAAA9x3j.jpg",
+          "url": "http://t.co/xHsedgbvaz",
+          "display_url": "pic.twitter.com/xHsedgbvaz",
+          "expanded_url": "http://twitter.com/CsMollet/status/609670738644176896/photo/1",
+          "type": "photo",
+          "sizes": {
+            "small": {
+              "w": 340,
+              "h": 255,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 600,
+              "h": 450,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1024,
+              "h": 768,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "es"
+  },
+  {
+    "metadata": {
+      "iso_language_code": "es",
+      "result_type": "recent"
+    },
+    "created_at": "Fri Jun 12 19:46:29 +0000 2015",
+    "id": 609446695777235000,
+    "id_str": "609446695777234944",
+    "text": "¿Cambio político? jajajaja #CiudadanosCs apoya a PSOE en Andalucía y a PP en Granada, 30 y 12 años respectivamente gobernando y estafando.",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 200918473,
+      "id_str": "200918473",
+      "name": "Ibarra",
+      "screen_name": "Wajalot",
+      "location": "Europa",
+      "description": "Beti Zurekin Athletic!!",
+      "url": "http://t.co/TmZcDfPnSK",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/TmZcDfPnSK",
+              "expanded_url": "http://64bits.es",
+              "display_url": "64bits.es",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 73,
+      "friends_count": 90,
+      "listed_count": 2,
+      "created_at": "Sun Oct 10 16:42:52 +0000 2010",
+      "favourites_count": 44,
+      "utc_offset": 7200,
+      "time_zone": "Madrid",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 1076,
+      "lang": "es",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/228896621/t2.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/228896621/t2.jpg",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3681800266/e38317abcb11875d0b7d690a25e7b46c_normal.jpeg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3681800266/e38317abcb11875d0b7d690a25e7b46c_normal.jpeg",
+      "profile_link_color": "0084B4",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "CiudadanosCs",
+          "indices": [
+            27,
+            40
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "es"
+  },
+  {
+    "metadata": {
+      "iso_language_code": "es",
+      "result_type": "recent"
+    },
+    "created_at": "Fri Jun 12 10:51:01 +0000 2015",
+    "id": 609311939265712100,
+    "id_str": "609311939265712128",
+    "text": "RT @kim_soler: Hola @FranHervias(#CiudadanosCs) te brindo la oportunidad de explicarte ante tus votantes.Suerte campeón ! #JaqueMate http:/…",
+    "source": "<a href=\"https://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android Tablets</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 191480670,
+      "id_str": "191480670",
+      "name": "Nacho",
+      "screen_name": "ifggs",
+      "location": "",
+      "description": "",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 31,
+      "friends_count": 149,
+      "listed_count": 2,
+      "created_at": "Thu Sep 16 15:21:38 +0000 2010",
+      "favourites_count": 9,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 429,
+      "lang": "es",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/606061344945803264/asnrIzLe_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/606061344945803264/asnrIzLe_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/191480670/1433330507",
+      "profile_link_color": "0084B4",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "metadata": {
+        "iso_language_code": "es",
+        "result_type": "recent"
+      },
+      "created_at": "Tue Jun 09 20:06:44 +0000 2015",
+      "id": 608364626762453000,
+      "id_str": "608364626762452993",
+      "text": "Hola @FranHervias(#CiudadanosCs) te brindo la oportunidad de explicarte ante tus votantes.Suerte campeón ! #JaqueMate http://t.co/qGnpdhWyqy",
+      "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1291262382,
+        "id_str": "1291262382",
+        "name": "Kim Soler",
+        "screen_name": "kim_soler",
+        "location": "Catalonia [Via Làctia]",
+        "description": "for Unilateral Declaration of Independence #UDI",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 6851,
+        "friends_count": 2989,
+        "listed_count": 45,
+        "created_at": "Sat Mar 23 12:11:32 +0000 2013",
+        "favourites_count": 503,
+        "utc_offset": 7200,
+        "time_zone": "Madrid",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 9701,
+        "lang": "ca",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/521912801699573760/R-_O7xO8_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/521912801699573760/R-_O7xO8_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1291262382/1403536521",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 33,
+      "favorite_count": 9,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "CiudadanosCs",
+            "indices": [
+              18,
+              31
+            ]
+          },
+          {
+            "text": "JaqueMate",
+            "indices": [
+              107,
+              117
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "FranHervias",
+            "name": "Fran Hervías",
+            "id": 146214432,
+            "id_str": "146214432",
+            "indices": [
+              5,
+              17
+            ]
+          }
+        ],
+        "urls": [],
+        "media": [
+          {
+            "id": 608364606453628900,
+            "id_str": "608364606453628928",
+            "indices": [
+              118,
+              140
+            ],
+            "media_url": "http://pbs.twimg.com/media/CHFYYuWWwAAB5Cz.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/CHFYYuWWwAAB5Cz.jpg",
+            "url": "http://t.co/qGnpdhWyqy",
+            "display_url": "pic.twitter.com/qGnpdhWyqy",
+            "expanded_url": "http://twitter.com/kim_soler/status/608364626762452993/photo/1",
+            "type": "photo",
+            "sizes": {
+              "large": {
+                "w": 632,
+                "h": 323,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 600,
+                "h": 306,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 340,
+                "h": 173,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              }
+            }
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "es"
+    },
+    "is_quote_status": false,
+    "retweet_count": 33,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "CiudadanosCs",
+          "indices": [
+            33,
+            46
+          ]
+        },
+        {
+          "text": "JaqueMate",
+          "indices": [
+            122,
+            132
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "kim_soler",
+          "name": "Kim Soler",
+          "id": 1291262382,
+          "id_str": "1291262382",
+          "indices": [
+            3,
+            13
+          ]
+        },
+        {
+          "screen_name": "FranHervias",
+          "name": "Fran Hervías",
+          "id": 146214432,
+          "id_str": "146214432",
+          "indices": [
+            20,
+            32
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 608364606453628900,
+          "id_str": "608364606453628928",
+          "indices": [
+            139,
+            140
+          ],
+          "media_url": "http://pbs.twimg.com/media/CHFYYuWWwAAB5Cz.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/CHFYYuWWwAAB5Cz.jpg",
+          "url": "http://t.co/qGnpdhWyqy",
+          "display_url": "pic.twitter.com/qGnpdhWyqy",
+          "expanded_url": "http://twitter.com/kim_soler/status/608364626762452993/photo/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 632,
+              "h": 323,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 600,
+              "h": 306,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 340,
+              "h": 173,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            }
+          },
+          "source_status_id": 608364626762453000,
+          "source_status_id_str": "608364626762452993",
+          "source_user_id": 1291262382,
+          "source_user_id_str": "1291262382"
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "es"
+  },
+  {
+    "metadata": {
+      "iso_language_code": "es",
+      "result_type": "recent"
+    },
+    "created_at": "Fri Jun 12 08:27:59 +0000 2015",
+    "id": 609275945485111300,
+    "id_str": "609275945485111296",
+    "text": "Recordad tdos k #SusanitaTieneDosRatones ya stá en la poltrona vía #CiudadanosCS. Más #GobiernoForajido en #Andalucia si seguís votando esto",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 3051046143,
+      "id_str": "3051046143",
+      "name": "futuronx",
+      "screen_name": "futuronx",
+      "location": "Ciudad Utopía ",
+      "description": "Un ser que nació, ha crecido y algún día morirá. Antes de diñarla quiero ver un mundo mejor. ¿Me ayudarás a conseguirlo?",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 54,
+      "friends_count": 52,
+      "listed_count": 1,
+      "created_at": "Sat Feb 21 23:22:04 +0000 2015",
+      "favourites_count": 1777,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 2021,
+      "lang": "es",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/569277095805587456/VmCFHBDX_normal.jpeg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/569277095805587456/VmCFHBDX_normal.jpeg",
+      "profile_link_color": "0084B4",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "SusanitaTieneDosRatones",
+          "indices": [
+            16,
+            40
+          ]
+        },
+        {
+          "text": "CiudadanosCS",
+          "indices": [
+            67,
+            80
+          ]
+        },
+        {
+          "text": "GobiernoForajido",
+          "indices": [
+            86,
+            103
+          ]
+        },
+        {
+          "text": "Andalucia",
+          "indices": [
+            107,
+            117
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "es"
+  }
+]

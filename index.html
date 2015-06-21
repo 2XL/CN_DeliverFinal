@@ -12,7 +12,13 @@ and open the template in the editor.
 	<link rel="shortcut icon" href="favicon.ico" > 
 	<link rel="stylesheet" href="js/twitter-bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="stylesheet" href="css/jlouvian.css"> 
 	<script src="js/jquery/jquery.js"></script>
+	<script src="data/latest/index.js"></script>
+	<script src="js/d3/d3.v3.min.js"></script>
+	<script src="js/jLouvian/jLouvain.js"></script>
+
 	<script src="js/twitter-bootstrap/js/bootstrap.js"></script>
 	<script src="js/util.js"></script>
 	<script src="js/script.js"></script>
@@ -34,7 +40,14 @@ and open the template in the editor.
     </head>
     <body>
 	<div>
-	    <h1>Complex Network - Tweets</h1>
+	    Complex Network - Tweets
+
+	</div>
+	<div id="detect" class="btn btn-success">
+	    Detect
+	</div>
+	<div id="reset" class="btn btn-info">
+	    Reset
 	</div>
 	<script>
 
@@ -43,17 +56,18 @@ and open the template in the editor.
 	    // - crear una classe tweet
 
 	    var network = {}; // llista de tots els usuaris
-
+	    var relIdx = 0;
 	    // pensar en usuari com a node i tweets com a aristes
 	    var nodes = function (obj) { // 
-		this.id = obj.id;   
-		this.data = obj; // user
+		this.idx = relIdx++;
+		this.id = obj.id;
+		this.user = obj; // user
 		this.links = {};
 		this.addLink = function (link) {
 		    if (this.links[link.id] === undefined) {
 			// console.log("add link to: "+this.data.id+"-->"+link.id);
 			this.links[link.id] = link; // node
-		    }else{
+		    } else {
 			// console.log("already added!");
 		    }
 		};
@@ -84,12 +98,7 @@ and open the template in the editor.
 
 		};
 	    }
-
-	    function parsetRetweet(retweet) {
-		return{
-		};
-	    }
-
+/*
 	    var data_source =
 		    [
 			"ahorapodemos",
@@ -110,7 +119,7 @@ and open the template in the editor.
 			"coalicion",
 			"obloque"
 		    ];
-
+*/
 	    var dataset = {};
 
 	    var data_load_status = 0; // fins recollectar tot
@@ -119,7 +128,7 @@ and open the template in the editor.
 
 	    data_source.map(function (item) {
 		// console.log(item);
-		loadJSON('data/' + item + '.json', function (data) {
+		loadJSON('data/latest/' + item + '.json', function (data) {
 		    data_load_status++;
 		    dataset[item] = JSON.parse(data);
 		});
@@ -292,7 +301,7 @@ and open the template in the editor.
 		for (key in user_all) {
 		    network[key] = new nodes(user_all[key]);
 		}
-		
+
 		console.log("Finish create Network");
 
 
@@ -301,11 +310,13 @@ and open the template in the editor.
 			network[key].addLink(network[item]);
 		    });
 		}
-		
+
 		console.log("Finish join Links");
 
 
 
+		// draw
+		parseNetwork(network, renderGraph);
 
 
 
@@ -323,22 +334,72 @@ and open the template in the editor.
 		 */
 
 		// generateDirectGraph
+	    }
 
 
+	    function parseNetwork(network, callback) {
+
+		console.log("Parsing/ini");
+
+		var keys = Object.keys(network);
+		var size = keys.length;
+		// declarar skeleton
+		var jsonStack = {
+		    nodes: [],
+		    edges: []
+		};
+
+		var edgeIdx = 0;
+
+		for (var k in network) {
+		    var size = Object.keys(network[k].links).length;
+		    var node = {
+			id: network[k].idx,
+			label: network[k].user.screen_name,
+			size: 2
+		    };
+		    jsonStack.nodes.push(node);
+
+		    var sourceId = network[k].idx;
+		    var links = network[k].links;
+
+		    for (var key in links) {
+			var edge = {
+			    id: edgeIdx++, // contador autoincremental
+			    source: network[key].idx,
+			    target: sourceId,
+			    weight: 1
+			};
+			jsonStack.edges.push(edge);
+
+		    }
+
+		}
+		console.log(jsonStack);
+
+		console.log("Parsing/fin");
+		callback(jsonStack);
+	    }
 
 
+	    function renderGraph(data) {
+		console.log("Rendering/ini");
 
+		console.log(data);
+		
+		draw(data.nodes, data.edges);
+		// TODO 
+		// neo4j
+		// http://neo4j.com/developer/guide-data-visualization/
 
+		console.log("Rendering/");
+		// download the parsed file for future rendering...
+		// or render it here
 
 	    }
 
 
 
-
-
-
-
 	</script>
-
     </body>
 </html>

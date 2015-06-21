@@ -1,0 +1,4 @@
+select entity, count(*) hit from tweets 
+where created_at BETWEEN SUBDATE(CURDATE(), INTERVAL 2 week) AND NOW()
+group by entity
+order by hit desc

@@ -1,0 +1,1058 @@
+[
+  {
+    "metadata": {
+      "iso_language_code": "es",
+      "result_type": "recent"
+    },
+    "created_at": "Sat Jun 13 23:15:31 +0000 2015",
+    "id": 609861687559200800,
+    "id_str": "609861687559200768",
+    "text": "RT @mikihoyos: @mikeldetorre No se yo si la solución es entregarle la alcaldía a la rancia derecha de #ForoAsturias",
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 2597069156,
+      "id_str": "2597069156",
+      "name": "danigonzagijon",
+      "screen_name": "danigonzagijon",
+      "location": "Gijón",
+      "description": "",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 114,
+      "friends_count": 258,
+      "listed_count": 0,
+      "created_at": "Mon Jun 30 23:34:14 +0000 2014",
+      "favourites_count": 2213,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 4252,
+      "lang": "es",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "642D8B",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/483773926472818688/j3YOlMyV.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/483773926472818688/j3YOlMyV.jpeg",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/508658341850390528/bGnMaEtp_normal.jpeg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/508658341850390528/bGnMaEtp_normal.jpeg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/2597069156/1405347833",
+      "profile_link_color": "FF0000",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "metadata": {
+        "iso_language_code": "es",
+        "result_type": "recent"
+      },
+      "created_at": "Sat Jun 13 22:58:51 +0000 2015",
+      "id": 609857492936470500,
+      "id_str": "609857492936470528",
+      "text": "@mikeldetorre No se yo si la solución es entregarle la alcaldía a la rancia derecha de #ForoAsturias",
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "truncated": false,
+      "in_reply_to_status_id": 609855764790968300,
+      "in_reply_to_status_id_str": "609855764790968320",
+      "in_reply_to_user_id": 111103652,
+      "in_reply_to_user_id_str": "111103652",
+      "in_reply_to_screen_name": "mikeldetorre",
+      "user": {
+        "id": 289228483,
+        "id_str": "289228483",
+        "name": "Miguel Angel Martín ",
+        "screen_name": "mikihoyos",
+        "location": "madrid-españa",
+        "description": "Inquieto y activo ciudadano,de ideas socialdemócratas,que procura un mundo mas justo,humano y equitativo",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 4870,
+        "friends_count": 3844,
+        "listed_count": 88,
+        "created_at": "Thu Apr 28 07:57:12 +0000 2011",
+        "favourites_count": 1437,
+        "utc_offset": 7200,
+        "time_zone": "Madrid",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 109819,
+        "lang": "es",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "131516",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/605816334824308737/I6HNFtXb_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/605816334824308737/I6HNFtXb_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/289228483/1432602536",
+        "profile_link_color": "009999",
+        "profile_sidebar_border_color": "EEEEEE",
+        "profile_sidebar_fill_color": "EFEFEF",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 1,
+      "favorite_count": 2,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "ForoAsturias",
+            "indices": [
+              87,
+              100
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "mikeldetorre",
+            "name": "Miguel de Torre",
+            "id": 111103652,
+            "id_str": "111103652",
+            "indices": [
+              0,
+              13
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "lang": "es"
+    },
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "ForoAsturias",
+          "indices": [
+            102,
+            115
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "mikihoyos",
+          "name": "Miguel Angel Martín ",
+          "id": 289228483,
+          "id_str": "289228483",
+          "indices": [
+            3,
+            13
+          ]
+        },
+        {
+          "screen_name": "mikeldetorre",
+          "name": "Miguel de Torre",
+          "id": 111103652,
+          "id_str": "111103652",
+          "indices": [
+            15,
+            28
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "es"
+  },
+  {
+    "metadata": {
+      "iso_language_code": "es",
+      "result_type": "recent"
+    },
+    "created_at": "Sat Jun 13 22:58:51 +0000 2015",
+    "id": 609857492936470500,
+    "id_str": "609857492936470528",
+    "text": "@mikeldetorre No se yo si la solución es entregarle la alcaldía a la rancia derecha de #ForoAsturias",
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "truncated": false,
+    "in_reply_to_status_id": 609855764790968300,
+    "in_reply_to_status_id_str": "609855764790968320",
+    "in_reply_to_user_id": 111103652,
+    "in_reply_to_user_id_str": "111103652",
+    "in_reply_to_screen_name": "mikeldetorre",
+    "user": {
+      "id": 289228483,
+      "id_str": "289228483",
+      "name": "Miguel Angel Martín ",
+      "screen_name": "mikihoyos",
+      "location": "madrid-españa",
+      "description": "Inquieto y activo ciudadano,de ideas socialdemócratas,que procura un mundo mas justo,humano y equitativo",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 4870,
+      "friends_count": 3844,
+      "listed_count": 88,
+      "created_at": "Thu Apr 28 07:57:12 +0000 2011",
+      "favourites_count": 1437,
+      "utc_offset": 7200,
+      "time_zone": "Madrid",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 109819,
+      "lang": "es",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "131516",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/605816334824308737/I6HNFtXb_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/605816334824308737/I6HNFtXb_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/289228483/1432602536",
+      "profile_link_color": "009999",
+      "profile_sidebar_border_color": "EEEEEE",
+      "profile_sidebar_fill_color": "EFEFEF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 2,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "ForoAsturias",
+          "indices": [
+            87,
+            100
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "mikeldetorre",
+          "name": "Miguel de Torre",
+          "id": 111103652,
+          "id_str": "111103652",
+          "indices": [
+            0,
+            13
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "es"
+  },
+  {
+    "metadata": {
+      "iso_language_code": "es",
+      "result_type": "recent"
+    },
+    "created_at": "Sat Jun 13 16:08:12 +0000 2015",
+    "id": 609754150776275000,
+    "id_str": "609754150776274944",
+    "text": "VAMOS FORO QUE NOSOTROS SÍ QUE PODEMOS !!!!!!!!!!! @carmenmoriyon #PorGijón #FOROGijón #FOROAsturias #InvestiduraGijón #InvestiduraAsturias",
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 3035621093,
+      "id_str": "3035621093",
+      "name": "Gtina Máxima",
+      "screen_name": "GCMaxima",
+      "location": "España",
+      "description": "",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 54,
+      "friends_count": 461,
+      "listed_count": 1,
+      "created_at": "Fri Feb 13 23:03:27 +0000 2015",
+      "favourites_count": 26,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 133,
+      "lang": "es",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/608631880737533953/WhveSQVd_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/608631880737533953/WhveSQVd_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/3035621093/1434203329",
+      "profile_link_color": "0084B4",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "PorGijón",
+          "indices": [
+            66,
+            75
+          ]
+        },
+        {
+          "text": "FOROGijón",
+          "indices": [
+            76,
+            86
+          ]
+        },
+        {
+          "text": "FOROAsturias",
+          "indices": [
+            87,
+            100
+          ]
+        },
+        {
+          "text": "InvestiduraGijón",
+          "indices": [
+            101,
+            118
+          ]
+        },
+        {
+          "text": "InvestiduraAsturias",
+          "indices": [
+            119,
+            139
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "carmenmoriyon",
+          "name": "Carmen Moriyón",
+          "id": 278958787,
+          "id_str": "278958787",
+          "indices": [
+            51,
+            65
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "es"
+  },
+  {
+    "metadata": {
+      "iso_language_code": "es",
+      "result_type": "recent"
+    },
+    "created_at": "Fri Jun 12 21:17:12 +0000 2015",
+    "id": 609469524006600700,
+    "id_str": "609469524006600705",
+    "text": "RT @Tania86dg: Eh,a los de #Gijón: Se os ha ido la puta chapeta?Coalición #PODEMOS-#ForoAsturias.Pegan lo mismo q comer un plato fabes empu…",
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 2289684117,
+      "id_str": "2289684117",
+      "name": "Marta Maqueda",
+      "screen_name": "maqueda_marta",
+      "location": "San Martin de Valdeiglesias",
+      "description": "No cuentes cuentos a quien sabe de historias!!! Sanidad pública!!! Enfermera de Corazón......",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 95,
+      "friends_count": 84,
+      "listed_count": 2,
+      "created_at": "Sat Jan 18 13:38:49 +0000 2014",
+      "favourites_count": 680,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 1129,
+      "lang": "es",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/601730208287334401/qoA3_zVW_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/601730208287334401/qoA3_zVW_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/2289684117/1432298634",
+      "profile_link_color": "9266CC",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "metadata": {
+        "iso_language_code": "es",
+        "result_type": "recent"
+      },
+      "created_at": "Fri Jun 12 19:08:18 +0000 2015",
+      "id": 609437085683028000,
+      "id_str": "609437085683027968",
+      "text": "Eh,a los de #Gijón: Se os ha ido la puta chapeta?Coalición #PODEMOS-#ForoAsturias.Pegan lo mismo q comer un plato fabes empujao con galletas",
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 251351010,
+        "id_str": "251351010",
+        "name": "Tania Díaz",
+        "screen_name": "Tania86dg",
+        "location": "Allande, Asturias - Madrid",
+        "description": "Soy un granito de arroz en el mundo. Enfermera en mis ratos ocupados. Vivo como vosotros,arrastrada por las circunstancias.",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 232,
+        "friends_count": 538,
+        "listed_count": 4,
+        "created_at": "Sat Feb 12 23:43:21 +0000 2011",
+        "favourites_count": 177,
+        "utc_offset": 7200,
+        "time_zone": "Madrid",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 1647,
+        "lang": "es",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "FFF04D",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/204973835/P271008_01.30.JPG",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/204973835/P271008_01.30.JPG",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/3003280146/204fec4b4e752acc238241862cde1a34_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/3003280146/204fec4b4e752acc238241862cde1a34_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/251351010/1390954653",
+        "profile_link_color": "0099CC",
+        "profile_sidebar_border_color": "FFF8AD",
+        "profile_sidebar_fill_color": "F6FFD1",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": {
+        "id": "206c436ce43a43a3",
+        "url": "https://api.twitter.com/1.1/geo/id/206c436ce43a43a3.json",
+        "place_type": "city",
+        "name": "Madrid",
+        "full_name": "Madrid, Comunidad de Madrid",
+        "country_code": "ES",
+        "country": "España",
+        "contained_within": [],
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -3.8890049,
+                40.3120713
+              ],
+              [
+                -3.5180102,
+                40.3120713
+              ],
+              [
+                -3.5180102,
+                40.6435181
+              ],
+              [
+                -3.8890049,
+                40.6435181
+              ]
+            ]
+          ]
+        },
+        "attributes": {}
+      },
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 2,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Gijón",
+            "indices": [
+              12,
+              18
+            ]
+          },
+          {
+            "text": "PODEMOS",
+            "indices": [
+              59,
+              67
+            ]
+          },
+          {
+            "text": "ForoAsturias",
+            "indices": [
+              68,
+              81
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "lang": "es"
+    },
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "Gijón",
+          "indices": [
+            27,
+            33
+          ]
+        },
+        {
+          "text": "PODEMOS",
+          "indices": [
+            74,
+            82
+          ]
+        },
+        {
+          "text": "ForoAsturias",
+          "indices": [
+            83,
+            96
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Tania86dg",
+          "name": "Tania Díaz",
+          "id": 251351010,
+          "id_str": "251351010",
+          "indices": [
+            3,
+            13
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "es"
+  },
+  {
+    "metadata": {
+      "iso_language_code": "es",
+      "result_type": "recent"
+    },
+    "created_at": "Fri Jun 12 19:11:03 +0000 2015",
+    "id": 609437778481446900,
+    "id_str": "609437778481446912",
+    "text": "RT @Tania86dg: Eh,a los de #Gijón: Se os ha ido la puta chapeta?Coalición #PODEMOS-#ForoAsturias.Pegan lo mismo q comer un plato fabes empu…",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 315763853,
+      "id_str": "315763853",
+      "name": "Nana Montañés",
+      "screen_name": "nanamontanes",
+      "location": "Tapia de Casariego (Asturias)",
+      "description": "Pretendo ayudar a salir  del periodo ESPECULOCENO y que otras generaciones disfruten como yo de este generoso Planeta.",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 659,
+      "friends_count": 1390,
+      "listed_count": 14,
+      "created_at": "Sun Jun 12 12:05:49 +0000 2011",
+      "favourites_count": 210,
+      "utc_offset": 10800,
+      "time_zone": "Athens",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 8746,
+      "lang": "es",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/580905041520922624/chWyZjj7_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/580905041520922624/chWyZjj7_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/315763853/1362084180",
+      "profile_link_color": "0084B4",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "metadata": {
+        "iso_language_code": "es",
+        "result_type": "recent"
+      },
+      "created_at": "Fri Jun 12 19:08:18 +0000 2015",
+      "id": 609437085683028000,
+      "id_str": "609437085683027968",
+      "text": "Eh,a los de #Gijón: Se os ha ido la puta chapeta?Coalición #PODEMOS-#ForoAsturias.Pegan lo mismo q comer un plato fabes empujao con galletas",
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 251351010,
+        "id_str": "251351010",
+        "name": "Tania Díaz",
+        "screen_name": "Tania86dg",
+        "location": "Allande, Asturias - Madrid",
+        "description": "Soy un granito de arroz en el mundo. Enfermera en mis ratos ocupados. Vivo como vosotros,arrastrada por las circunstancias.",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 232,
+        "friends_count": 538,
+        "listed_count": 4,
+        "created_at": "Sat Feb 12 23:43:21 +0000 2011",
+        "favourites_count": 177,
+        "utc_offset": 7200,
+        "time_zone": "Madrid",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 1647,
+        "lang": "es",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "FFF04D",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/204973835/P271008_01.30.JPG",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/204973835/P271008_01.30.JPG",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/3003280146/204fec4b4e752acc238241862cde1a34_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/3003280146/204fec4b4e752acc238241862cde1a34_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/251351010/1390954653",
+        "profile_link_color": "0099CC",
+        "profile_sidebar_border_color": "FFF8AD",
+        "profile_sidebar_fill_color": "F6FFD1",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": {
+        "id": "206c436ce43a43a3",
+        "url": "https://api.twitter.com/1.1/geo/id/206c436ce43a43a3.json",
+        "place_type": "city",
+        "name": "Madrid",
+        "full_name": "Madrid, Comunidad de Madrid",
+        "country_code": "ES",
+        "country": "España",
+        "contained_within": [],
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -3.8890049,
+                40.3120713
+              ],
+              [
+                -3.5180102,
+                40.3120713
+              ],
+              [
+                -3.5180102,
+                40.6435181
+              ],
+              [
+                -3.8890049,
+                40.6435181
+              ]
+            ]
+          ]
+        },
+        "attributes": {}
+      },
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 2,
+      "favorite_count": 0,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Gijón",
+            "indices": [
+              12,
+              18
+            ]
+          },
+          {
+            "text": "PODEMOS",
+            "indices": [
+              59,
+              67
+            ]
+          },
+          {
+            "text": "ForoAsturias",
+            "indices": [
+              68,
+              81
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "lang": "es"
+    },
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "Gijón",
+          "indices": [
+            27,
+            33
+          ]
+        },
+        {
+          "text": "PODEMOS",
+          "indices": [
+            74,
+            82
+          ]
+        },
+        {
+          "text": "ForoAsturias",
+          "indices": [
+            83,
+            96
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Tania86dg",
+          "name": "Tania Díaz",
+          "id": 251351010,
+          "id_str": "251351010",
+          "indices": [
+            3,
+            13
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "es"
+  },
+  {
+    "metadata": {
+      "iso_language_code": "es",
+      "result_type": "recent"
+    },
+    "created_at": "Fri Jun 12 19:08:18 +0000 2015",
+    "id": 609437085683028000,
+    "id_str": "609437085683027968",
+    "text": "Eh,a los de #Gijón: Se os ha ido la puta chapeta?Coalición #PODEMOS-#ForoAsturias.Pegan lo mismo q comer un plato fabes empujao con galletas",
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 251351010,
+      "id_str": "251351010",
+      "name": "Tania Díaz",
+      "screen_name": "Tania86dg",
+      "location": "Allande, Asturias - Madrid",
+      "description": "Soy un granito de arroz en el mundo. Enfermera en mis ratos ocupados. Vivo como vosotros,arrastrada por las circunstancias.",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 232,
+      "friends_count": 538,
+      "listed_count": 4,
+      "created_at": "Sat Feb 12 23:43:21 +0000 2011",
+      "favourites_count": 177,
+      "utc_offset": 7200,
+      "time_zone": "Madrid",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 1647,
+      "lang": "es",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "FFF04D",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/204973835/P271008_01.30.JPG",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/204973835/P271008_01.30.JPG",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3003280146/204fec4b4e752acc238241862cde1a34_normal.jpeg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3003280146/204fec4b4e752acc238241862cde1a34_normal.jpeg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/251351010/1390954653",
+      "profile_link_color": "0099CC",
+      "profile_sidebar_border_color": "FFF8AD",
+      "profile_sidebar_fill_color": "F6FFD1",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": {
+      "id": "206c436ce43a43a3",
+      "url": "https://api.twitter.com/1.1/geo/id/206c436ce43a43a3.json",
+      "place_type": "city",
+      "name": "Madrid",
+      "full_name": "Madrid, Comunidad de Madrid",
+      "country_code": "ES",
+      "country": "España",
+      "contained_within": [],
+      "bounding_box": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.8890049,
+              40.3120713
+            ],
+            [
+              -3.5180102,
+              40.3120713
+            ],
+            [
+              -3.5180102,
+              40.6435181
+            ],
+            [
+              -3.8890049,
+              40.6435181
+            ]
+          ]
+        ]
+      },
+      "attributes": {}
+    },
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "Gijón",
+          "indices": [
+            12,
+            18
+          ]
+        },
+        {
+          "text": "PODEMOS",
+          "indices": [
+            59,
+            67
+          ]
+        },
+        {
+          "text": "ForoAsturias",
+          "indices": [
+            68,
+            81
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "lang": "es"
+  }
+]

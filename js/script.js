@@ -170,3 +170,100 @@ function parseDMOZ(list, callback) {
     }, 500);
 
 }
+
+/*
+ * Render the comunity with d3.js
+ * @param {type} ns	Nodes
+ * @param {type} es	Edges
+ * @returns {undefined}
+ */
+function draw(ns, es) {
+    
+    console.log("draw/init");
+    var community = jLouvain().nodes(ns).edges(es);
+//Drawing code
+
+    var width = 1000,
+	    height = 1000;
+    var original_node_data = d3.entries(ns);
+    var max_weight = d3.max(es, function (d) {
+	return d.weight
+    });
+    var weight_scale = d3.scale.linear().domain([0, max_weight]).range([1, 5]);
+    // cool random force...
+    var force = d3.layout.force()
+	    .charge(-30)
+	    .linkDistance(20)
+	    .size([width, height]);
+    var svg = d3.select("body").append("svg") 
+	    .attr("width", width)
+	    .attr("height", height)
+	    .attr("border", 1);
+    force.nodes(original_node_data)
+	    .links(es)
+	    .start();
+    var link = svg.selectAll(".link")
+	    .data(es)
+	    .enter().append("line")
+	    .attr("class", "link")
+	    .style("stroke-width", function (d) {
+		return weight_scale(d.weight);
+	    });
+    var node = svg.selectAll(".node")
+	    .data(force.nodes())
+	    .enter().append("circle")
+	    .attr("class", "node")
+	    .attr("r", 5)
+	    .style("fill", '#a30500')
+	    .call(force.drag);
+    force.on("tick", function () {
+	link.attr("x1", function (d) {
+	    return d.source.x;
+	})
+		.attr("y1", function (d) {
+		    return d.source.y;
+		})
+		.attr("x2", function (d) {
+		    return d.target.x;
+		})
+		.attr("y2", function (d) {
+		    return d.target.y;
+		});
+	node.attr("cx", function (d) {
+	    return d.x;
+	})
+		.attr("cy", function (d) {
+		    return d.y;
+		});
+    });
+    d3.select('#detect').on('click', function () {
+	//Communnity detection on click event
+
+	var community_assignment_result = community();
+	var node_ids = Object.keys(community_assignment_result);
+	console.log('Resulting Community Data', community_assignment_result);
+	var max_community_number = 0;
+	var maxComunity = 2;
+	node_ids.forEach(function (d) {
+	    original_node_data[d].community = community_assignment_result[d]; //  asignació binaria
+	    // original_node_data[d].community = community_assignment_result[d] % maxComunity; // asignació binaria
+
+	    max_community_number = max_community_number < community_assignment_result[d] ? community_assignment_result[d] : max_community_number;
+	});
+	console.log(max_community_number);
+	console.info("export PAJEK.clu");
+	partitionToCluster(community_assignment_result, files[fileIdx] + ".clu");
+	var color = d3.scale.category20().domain(d3.range([0, max_community_number]));
+	d3.selectAll('.node')
+		.data(original_node_data)
+		.style('fill', function (d) {
+		    return color(d.community);
+		})
+    });
+    d3.select('#reset').on('click', function () {
+	d3.selectAll('.node')
+		.data(original_node_data)
+		.style('fill', '#a30500');
+    });
+    console.log("draw/end");
+}

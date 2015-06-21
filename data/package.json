@@ -1,0 +1,19 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "twit collection",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "chenglong.zou <chenglong.zou@estudiants.urv.cat> (http://github.com/2XL)",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.2",
+    "https": "^1.0.0",
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0",
+    "querystring": "^0.2.0",
+    "rimraf": "^2.4.0"
+  }
+}

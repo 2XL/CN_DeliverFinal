@@ -1,0 +1,5 @@
+create table tweets_tmp like tweets;
+
+drop table tweets;
+
+alter table tweets_tmp rename to tweets;
