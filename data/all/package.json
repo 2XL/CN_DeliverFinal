@@ -1,0 +1,21 @@
+{
+  "name": "all",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "parse",
+    "hashtags",
+    "and",
+    "csv",
+    "files"
+  ],
+  "author": "chenglong.zou <chenglong.zou@estudiants.urv.cat> (http://github.com/2XL)",
+  "license": "ISC",
+  "dependencies": {
+    "walk": "^2.3.9"
+  }
+}
