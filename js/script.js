@@ -128,7 +128,7 @@ function makeArrayOf(length, value) {
 function parseDMOZ(list, callback) {
     var result = [];
 
- 
+
     for (var text in list) {
 	// console.log(domain);
 	var server = "http://dmoz-api.appspot.com/category?url=";
@@ -138,7 +138,7 @@ function parseDMOZ(list, callback) {
 
 
 	var term = list[text];
-	var query = server + 'www.'+term+'.com';
+	var query = server + 'www.' + term + '.com';
 //	var querySearch = search + term;
 	// and remember the jqXHR object for this request
 
@@ -178,7 +178,7 @@ function parseDMOZ(list, callback) {
  * @returns {undefined}
  */
 function draw(ns, es) {
-    
+
     console.log("draw/init");
     var community = jLouvain().nodes(ns).edges(es);
 //Drawing code
@@ -195,7 +195,7 @@ function draw(ns, es) {
 	    .charge(-30)
 	    .linkDistance(20)
 	    .size([width, height]);
-    var svg = d3.select("body").append("svg") 
+    var svg = d3.select("body").append("svg")
 	    .attr("width", width)
 	    .attr("height", height)
 	    .attr("border", 1);
@@ -266,4 +266,21 @@ function draw(ns, es) {
 		.style('fill', '#a30500');
     });
     console.log("draw/end");
+}
+
+
+
+function mycomparator(a, b) {
+    return parseInt(a) - parseInt(b);
+}
+
+function predicatBy(prop) {
+    return function (a, b) {
+	if (a[prop] > b[prop]) {
+	    return 1;
+	} else if (a[prop] < b[prop]) {
+	    return -1;
+	}
+	return 0;
+    }
 }
