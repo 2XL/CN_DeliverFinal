@@ -96,6 +96,20 @@ function loadNET(path, callback) {
 }
 
 
+function loadFile(path, callback) {
+    var xobj = new XMLHttpRequest();
+    xobj.overrideMimeType("application/plain");
+    xobj.open('GET', path, true);
+    xobj.onreadystatechange = function () {
+	if (xobj.readyState === 4 && xobj.status === 200) {
+// .open will NOT return a value but simply returns undefined in async mode so use a callback
+	    callback(xobj.responseText);
+	}
+    };
+    xobj.send(null);
+}
+
+
 function isJson(str) {
     try {
 	var data = JSON.parse(str);
@@ -187,7 +201,7 @@ function draw(ns, es) {
 	    height = 1000;
     var original_node_data = d3.entries(ns);
     var max_weight = d3.max(es, function (d) {
-	return d.weight
+	return d.weight;
     });
     var weight_scale = d3.scale.linear().domain([0, max_weight]).range([1, 5]);
     // cool random force...
@@ -213,6 +227,13 @@ function draw(ns, es) {
 	    .data(force.nodes())
 	    .enter().append("circle")
 	    .attr("class", "node")
+	    .on("mouseover", function (d) {
+		console.log("mouse out",d);
+	    }).on("mouseout", function (d) {
+	// Remove the info text on mouse out.
+
+	console.log("mouse out",d);
+    })
 	    .attr("r", 5)
 	    .style("fill", '#a30500')
 	    .call(force.drag);

@@ -15,6 +15,8 @@ and open the template in the editor.
 	<script src="/js/util.js"></script>
 	<script src="/js/twitter-bootstrap/js/bootstrap.js"></script>
 	<script src="/js/Chart.js"></script>
+	<script src="/js/d3/d3.js"></script>
+	<script src="/js/d3/d3.layout.cloud.js"></script>
 	<script>
 	    // TODO,
 
@@ -76,11 +78,11 @@ and open the template in the editor.
 		    entitat = entitats[idx];
 		} else {
 		    idx = params['id'];
-		    
-		    if(!isNaN(idx)){
+
+		    if (!isNaN(idx)) {
 			// true
 			entitat = entitats[idx];
-		    }else{
+		    } else {
 			entitat = idx;
 		    }
 		}
@@ -110,6 +112,9 @@ and open the template in the editor.
 	    function startRendering(data) {
 		startRenderingHashtag(data);
 		startRenderingProfile(data);
+		console.log(data);
+		startRenderingWordCloud(data.hashtags);
+		startRenderingWordCloud(data.profiles);
 	    }
 
 	    function startRenderingProfile(data) {
@@ -194,7 +199,60 @@ and open the template in the editor.
 
 	    }
 
+	    function startRenderingWordCloud(arr) {
 
+		var top = 40;
+		if (arr.length > top) {
+		    // op
+		} else {
+		    top = arr.length;
+		}
+		var dataset = arr.slice(-top);
+
+
+		var width = 800;
+		var heigth = 800;
+		var fill = d3.scale.category20();
+		var size = 10;
+		d3.layout.cloud().size([width, heigth])
+			.words(dataset.map(function (d) {
+			    return {text: d.k, size: d.v};
+			}))
+			.padding(5)
+			.rotate(function () {
+			    return ~~(Math.random() * 2) * 90;
+			})
+			.font("Impact")
+			.fontSize(function (d) {
+			    return d.size;
+			})
+			.on("end", draw)
+			.start();
+		function draw(words) {
+		    d3.select("body").append("svg")
+			    .attr("width", width)
+			    .attr("height", heigth)
+			    .append("g")
+			    .attr("transform", "translate(" + width / 2 + "," + heigth / 2 + ")")
+			    .selectAll("text")
+			    .data(words)
+			    .enter().append("text")
+			    .style("font-size", function (d) {
+				return d.size + "px";
+			    })
+			    .style("font-family", "Impact")
+			    .style("fill", function (d, i) {
+				return fill(i);
+			    })
+			    .attr("text-anchor", "middle")
+			    .attr("transform", function (d) {
+				return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+			    })
+			    .text(function (d) {
+				return d.text;
+			    });
+		}
+	    }
 	</script>
 
 
@@ -212,5 +270,8 @@ and open the template in the editor.
 	<div>
 	    <canvas id="hashtagChart" width="500" height="500"></canvas>
 	</div> 
+	<script>
+
+	</script>
     </body>
 </html>

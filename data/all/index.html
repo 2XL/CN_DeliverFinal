@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+	<title>TODO supply a title</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="/js/twitter-bootstrap/css/bootstrap.css" rel="stylesheet">
+	<script src="/js/jquery.js"></script>
+	<script src="/js/jquery.csv-0.71.js"></script>
+	<script src="/js/script.js"></script>
+	<script src="/js/util.js"></script>
+	<script src="/js/twitter-bootstrap/js/bootstrap.js"></script>
+	<script src="/js/Chart.js"></script>
+	<script src="/js/d3/d3.js"></script>
+	<script src="/js/d3/d3.layout.cloud.js"></script>
+	<script type="text/javascript" src="/js/jsapi.js"></script>
+	<script>
+	    // TODO,	
+	    // parse all the csv and generate an array
+
+	    var tweets = {};
+	    // var dataset_source = ["CiudadanosCs", "ForoAsturias", "PPopular", "PSOE", "UPyD", "ahorapodemos", "ciu", "coalicion", "compromis", "cupnacional", "geroabai", "iunida", "obloque", "omnium", "viacatalana"];
+
+	    var dataset_source = ["viacatalana","geroabai","PPopular","CiudadanosCs", "ForoAsturias", "PPopular", "PSOE", "UPyD", "ahorapodemos", "ciu"];
+
+	    var dataset_path = 'source/';
+	    var dataset_ext = '_tweets.csv';
+	    var dataset = {};
+
+	    dataset_source.map(function (item) {
+		// console.log(item);
+		loadFile(dataset_path + item + dataset_ext, function (str) {
+		    dataset[item] = $.csv.toObjects(str);
+		    console.log('request: ' + item);
+		});
+	    });
+
+	    var itvDataload = setInterval(function () {
+		if (dataset_source.length === Object.keys(dataset).length) {
+		    startParse(dataset);
+		    clearInterval(itvDataload);
+
+		} else {
+		    console.log('Status: ' + Object.keys(dataset).length + '/' + dataset_source.length);
+		}
+
+	    });
+
+	    function startParse(dataset) {
+		console.log("StartParse!", dataset);
+		var now = (new Date).getTime();
+		dataset_xy = Object.keys(dataset).map(function (key) {
+		    var entity = dataset[key];
+		    return entity.map(function (obj, idx) {
+			var total = entity.length;
+			return {
+			    x: (new Date(obj.created_at).getTime() /1000),
+			    y: total - idx
+			};
+		    }).sort(predicatBy('x'));
+		});
+
+
+		// generar un unic address space
+
+	    }
+
+	    google.load('visualization', '1.1', {packages: ['line']});
+	    google.setOnLoadCallback(drawChartLines);
+
+	    function drawChartLines() {
+
+		var data = new google.visualization.DataTable();
+
+		data.addColumn('number', 'epoch');
+		dataset_source.map(function (item) {
+
+		    data.addColumn('number', item);
+		});
+
+		epoch = {}; // epoch[135465] = [,,,,]
+
+		dataset_xy.map(function (entity, idx) {
+		    entity.map(function (tweet) {
+			if (epoch[tweet.x] === undefined)
+			    // es crea un array amb x posicions per aquell epoch
+			    epoch[tweet.x] = new Array(dataset_xy.length);
+			epoch[tweet.x][idx] = tweet.y;
+		    });
+		});
+		/*
+		 var epoch_keys = Object.keys(epoch);
+		 
+		 for (var idx = 0, last = 0; idx < epoch_keys.length; idx++) {
+		 
+		 for (var j = 0; j < epoch[epoch_keys[idx]].length; j++) {
+		 if (epoch[epoch_keys[idx]][j] === undefined) {
+		 if (epoch[epoch_keys[last]][j] === undefined)
+		 epoch[epoch_keys[idx]][j] = 0;
+		 epoch[epoch_keys[idx]][j] = epoch[epoch_keys[last]][j];
+		 }
+		 }
+		 last = idx;
+		 }
+		 */
+		// tornar a recorrer epoch per omplir els camps buits
+		epoch_rows = Object.keys(epoch).map(function (item) {
+		    epoch[item].unshift(parseInt(item));
+		    return epoch[item];
+		});
+
+
+
+
+
+
+		datarows = epoch_rows // .splice(1000);
+
+		data.addRows(datarows);
+
+		var options = {
+		    chart: {
+			title: 'Tweeter Account tweets counter',
+			subtitle: '...'
+		    },
+		    width: 1900,
+		    height: 900
+		};
+
+		var chart = new google.charts.Line(document.getElementById('linechart_tweets'));
+
+		chart.draw(data, options);
+	    }
+	    
+	    function drawChart() {
+
+		var data = new google.visualization.DataTable();
+		data.addColumn('number', 'Day');
+		data.addColumn('number', 'Guardians of the Galaxy');
+		data.addColumn('number', 'The Avengers');
+		data.addColumn('number', 'Transformers: Age of Extinction');
+
+		data.addRows([
+		    [1, 37.8, 80.8, 41.8],
+		    [2, 30.9, 69.5, 32.4],
+		    [3, 25.4, 57, 25.7],
+		    [4, 11.7, 18.8, 10.5],
+		    [5, 11.9, 17.6, 10.4],
+		    [6, 8.8, 13.6, 7.7],
+		    [7, 7.6, 12.3, 9.6],
+		    [8, 12.3, 29.2, 10.6],
+		    [9, 16.9, 42.9, 14.8],
+		    [10, 12.8, 30.9, 11.6],
+		    [11, 5.3, 7.9, 4.7],
+		    [12, 6.6, 8.4, 5.2],
+		    [13, 4.8, 6.3, 3.6],
+		    [14, 4.2, 6.2, 3.4]
+		]);
+
+		var options = {
+		    chart: {
+			title: 'Box Office Earnings in First Two Weeks of Opening',
+			subtitle: 'in millions of dollars (USD)'
+		    },
+		    width: 900,
+		    height: 500
+		};
+
+		var chart = new google.charts.Line(document.getElementById('linechart_material'));
+
+		chart.draw(data, options);
+	    }
+
+	</script>
+    </head>
+    <body>
+	<div id="linechart_material"></div>
+	<div id="linechart_tweets"></div>
+    </body>
+
+
+</html>

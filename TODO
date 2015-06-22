@@ -9,15 +9,22 @@
 
 // use neo4j 
     // relacions entre persones de un partit.
+    // ... really???
 
 
-// entity
-// hashtags
-    // _tweets.csv
-    // XXXX.json
-    // diagrama visualitzacio de paraules , persona mes rellevant de un partit
-				    // full de ruta del partit
 
+
+
+// generate a linechart, where
+    x axis is the timestamp
+    y axis is the tweets counter
+    // option: generate the dataset as csv and render it with matlab
+    // option: load csv and render it
+    
+    timestamp (epoch),  
+    -- d3 todo line chart
+
+    
 
 
 
